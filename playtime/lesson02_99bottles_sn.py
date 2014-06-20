@@ -27,14 +27,14 @@
 
 #start stop step
 for the_bottles in range (99, 0, -1):
-    if the_bottles >= 2:
+    if the_bottles > 2:
         print "{0} bottles of beer on the wall, {0} bottles of beer ... \nIf one of those bottles should happen to fall, {1} bottles of beer on the wall".format(the_bottles, the_bottles-1)
 
-    elif the_bottles < 2:
-        print "{0} bottle of beer on the wall, {0} bottle of beer ... \nIf one of those bottles should happen to fall, no more bottles of beer on the wall".format(the_bottles, the_bottles-1)
+    elif the_bottles == 2:
+        print "{0} bottles of beer on the wall, {0} bottles of beer ... \nIf one of those bottles should happen to fall, {1} bottle of beer on the wall".format(the_bottles, the_bottles-1)
 
     else:
-        print "No more bottles of beer"
+        print "{0} bottle of beer on the wall, {0} bottle of beer ... \nIf one of those bottles should happen to fall, no more bottles of beer on the wall".format(the_bottles, the_bottles-1)
 
 
 
