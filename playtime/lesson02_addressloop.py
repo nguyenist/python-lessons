@@ -44,9 +44,6 @@ def runApp ():
 runApp()
 
 #finished!!!
-print "Hello World."
-
-#Test
 
 
 
