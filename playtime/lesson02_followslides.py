@@ -1,44 +1,24 @@
+days_of_week = ['Monday', 'Tuesday']
 
+days_of_week.append('Wednesday')
 
-#create a list to store addresses based on cardinal directions
+print days_of_week
 
-nwList = []
-neList = []
-seList = []
-swList = []
+print len(days_of_week)
 
-#Use raw_input() to allow a user to type an address
+day = days_of_week.pop(2)
 
-def addressGame ():
-    address = raw_input('Enter a familiar address here: ')
-    print address
+print day
 
-    #If that address contains a quadrant (NW, NE, SE, SW), then add it to that quadrant's list.
+days_of_week.insert(0, 'Sunday')
 
-    if 'NW' in address:
-        nwList.append(address)
-        print nwList
+print days_of_week
 
-    if 'NE' in address:
-        neList.append(address)
-        print neList
+address = "1133 19th St NW Washington DC 20036"
 
-    if 'SE' in address:
-        seList.append(address)
-        print seList
+address_as_list = address.split(" ")
 
-    if 'SW' in address:
-        swList.append(address)
-        print
-
-#Allow user to enter 3 addresses; after three, print the length and contents of each list.
-
-def main ():
-    for i in range(2):
-        addressGame ()
-
-
-
+print address_as_list
 
 
 
