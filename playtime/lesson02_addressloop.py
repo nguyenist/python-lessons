@@ -1,5 +1,3 @@
-
-
 #create a list to store addresses based on cardinal directions
 
 nwList = []
@@ -29,26 +27,21 @@ def addressGame ():
 
     if 'SW' in address:
         swList.append(address)
-        print
+        print swList
 
 #Allow user to enter 3 addresses; after three, print the length and contents of each list.
 
-def main ():
-    for i in range(2):
+def runApp ():
+    for i in range(3):
+        print "here we are " + str(i)
         addressGame ()
 
+    print nwList
+    print neList
+    print seList
+    print swList
 
-
-
-
-
-
-
-
-
-
-
-
+runApp()
 
 
 
