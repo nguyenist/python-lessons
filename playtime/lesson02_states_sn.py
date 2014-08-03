@@ -29,7 +29,7 @@ print "</select>"
 
 # At line 15, we create one drop-down item.  Each additional <option> that we add will add another item to our drop-down menu
 #for states, abbreves in states_abbreves:
-    #print "<option value='{0}''>{1}</option>".format(abbreves, states)
+#    print "<option value='{0}''>{1}</option>".format(abbreves, states)
 
 # At line 16, we tell HTML that we're done with the drop-down menu
 
